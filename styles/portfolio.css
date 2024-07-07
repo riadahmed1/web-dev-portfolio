@@ -193,7 +193,7 @@ footer {
     width: 50%;
 }
 
-footer input[type="text"], footer input[type="email"], footer textarea {
+footer input[type="text"], footer input[type="email"] {
     height: 50px;
     font-size: 16px;
     border-radius: 5px;
@@ -203,4 +203,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     padding: 5px 35px;
     margin-bottom: 24px;
     border: none;
+}
+
+footer textarea {
+    height:100px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 35px;
+    margin-bottom: 24px;
+    border: none;
+}
 }
